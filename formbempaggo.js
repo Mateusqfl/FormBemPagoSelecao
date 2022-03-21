@@ -4,8 +4,6 @@
 const dados = localStorage.getItem('pedido');
 const listarespostas = JSON.parse(dados);
 
-console.log(listarespostas)
-
 //Variavéis de captura para uso nas funções
 const formulario = document.querySelector('form');
 let adesivos = formulario.querySelector('#form1');
@@ -101,6 +99,7 @@ formulario.addEventListener('submit', function (){
     const dadosJASON = JSON.stringify(listarespostas)
     localStorage.setItem ('pedido', dadosJASON);
 
+    console.log(listarespostas)
 
 })
 
