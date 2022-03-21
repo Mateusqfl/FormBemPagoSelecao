@@ -93,7 +93,7 @@ formulario.addEventListener('submit', function (){
         numeros: numero.value,
         observacoes: observacoes.value
     }
-    listarespostas.push(itens)
+    listarespostas.push(itens);
     
 
     const dadosJASON = JSON.stringify(listarespostas)
