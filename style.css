@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body {
+    background-color: #be29c4;
+}
+img{
+    width: 12%;
+    height: 24%;
+    background-image: transparent;
+    position: absolute;
+    left: 750px;
+    top: 0px;
+}
+#backgroudinicio {
+    
+
+    background-color: #3f3b79;
+    background-size: 100%;
+    height: 22%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    top: 0px;
+    
+
+}
+#form h1 {
+    font-weight: 100;
+    color: #d9dae7;
+    font-size: 1.2em;
+    position: relative;
+    left: 40px;
+    top: 15px;
+}
+#destaque {
+    color: white;
+    font-weight: 900;
+    
+}
+#form p {
+    font-size: 1.em;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.input {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+#form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    background-color: #F9F9F9;
+    height: 630px;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 0%;
+    box-shadow: #8b1e8f 5px 5px 5px;
+}
+
+#Observações {
+    background-color: #d9dae7;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    border-color: #d9dae7;
+}
+#Menos {
+    color: white;
+    border-color: #3f3b79;
+    background-color: #3f3b79;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+#Mais {
+    color: white;
+    border-color: #3f3b79;
+    background-color: #3f3b79;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+#number {
+    border-radius: 3px;
+    background-color: #d9dae7;
+    border-color: #d9dae7;
+    width: 10%;
+}
+#reset {
+    border-color: #3f3b79;
+    background-color: #3f3b79;
+    border-radius: 3px;
+    color: white;
+    font-weight: bolder;
+}
+#divbuton {
+    background-color: #d9dae7;
+    height: 16%;
+    position: relative;
+    top: 40px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#botão {
+    width: 100px;
+    height: 30px;
+    border-color: #3f3b79;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #3f3b79;
+    border-radius: 3px;
+    color: white;
+    position: relative;
+    left: 70%;
+    top: 30%;
+}
+
+/* Caso queira reponsividade para outros formatos => @media ( min-width: ) and ( max-width: ){}

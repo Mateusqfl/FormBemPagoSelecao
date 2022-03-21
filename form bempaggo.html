@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form BemPaggo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="Corpo">
+    
+   
+        <form action="#" id="form">
+            
+            <div id="backgroudinicio">
+                
+                <h1>Formulário <br> para compra de <br><strong id="destaque">Pacotes de adesivos</strong></h1>
+            </div>
+            <p><strong>Quais os adesivos?</strong></p>
+            <div id="form1" class="input">
+                <input id="Angular" type="checkbox" >
+                <label  for="Angular">Angular</label>
+                <input id="Vue" type="checkbox" >
+                <label  for="Vue">Vue</label>
+                <input id="React" type="checkbox" >
+                <label  for="React">React</label>
+            </div>
+            <p><strong>Quantos adesivos para cada?</strong></p>
+            <div class="input" id="form2">
+                <button type="button" id="Menos">&#8722</button> <input id="number" type="text" value="0" min="0"> <button type="button" id="Mais">&#43</button> <button id="reset" type="reset" >LIMPAR</button>
+               
+            </div>
+            <p><strong>Observações:</strong></p>
+            <div class="input">
+                 
+                <textarea name="textarea" id="Observações" placeholder="Alguma dúvida? Recado?"cols="30" rows="10"></textarea>
+            </div>
+            <div id="divbuton">
+                <button type="submit" id="botão">Enviar</button>
+            </div>
+        </form>
+        <img src="Imagens/logo.png" alt="">
+       <script src="formbempaggo.js"></script>
+    
+    
+        
+    
+</body>
+</html>
