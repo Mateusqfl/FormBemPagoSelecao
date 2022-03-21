@@ -3,6 +3,7 @@
 // Banco de dados => localStorage
 const dados = localStorage.getItem('pedido');
 const listarespostas = JSON.parse(dados);
+
 console.log(listarespostas)
 
 //Variavéis de captura para uso nas funções
@@ -99,6 +100,13 @@ formulario.addEventListener('submit', function (){
 
     const dadosJASON = JSON.stringify(listarespostas)
     localStorage.setItem ('pedido', dadosJASON);
+
+    if(listarespostas == null){
+        listarespostas = []
+    }
+    else {
+       listarespostas = JSON.parse(dados);
+    }
 })
 
 
