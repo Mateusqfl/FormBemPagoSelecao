@@ -101,12 +101,7 @@ formulario.addEventListener('submit', function (){
     const dadosJASON = JSON.stringify(listarespostas)
     localStorage.setItem ('pedido', dadosJASON);
 
-    if(listarespostas == null){
-        listarespostas = []
-    }
-    else {
-       listarespostas == JSON.parse(dados);
-    }
+
 })
 
 
