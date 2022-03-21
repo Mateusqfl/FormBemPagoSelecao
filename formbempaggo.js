@@ -105,7 +105,7 @@ formulario.addEventListener('submit', function (){
         listarespostas = []
     }
     else {
-       listarespostas = JSON.parse(dados);
+       listarespostas == JSON.parse(dados);
     }
 })
 
